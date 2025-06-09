@@ -1,0 +1,11 @@
+[package]
+name = "swap_aggregator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+alloy = { version = "0.7", features = ["full"] }
+alloy-contract = "0.7"
+tokio = { version = "1.0", features = ["full"] }
+eyre = "0.6"
+dotenv = "0.15"
